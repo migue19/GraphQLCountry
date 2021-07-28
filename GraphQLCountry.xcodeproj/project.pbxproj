@@ -11,6 +11,7 @@
 		F29A007B26B1D3A100931B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29A007A26B1D3A100931B7F /* ContentView.swift */; };
 		F29A007D26B1D3A200931B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29A007C26B1D3A200931B7F /* Assets.xcassets */; };
 		F29A008026B1D3A200931B7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29A007F26B1D3A200931B7F /* Preview Assets.xcassets */; };
+		F29A008926B1D3E600931B7F /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29A008826B1D3E600931B7F /* Apollo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F29A007C26B1D3A200931B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F29A007F26B1D3A200931B7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F29A008126B1D3A200931B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29A008826B1D3E600931B7F /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F29A007826B1D3A100931B7F /* GraphQLCountryApp.swift */,
 				F29A007A26B1D3A100931B7F /* ContentView.swift */,
+				F29A008726B1D3CA00931B7F /* GraphQL */,
 				F29A007C26B1D3A200931B7F /* Assets.xcassets */,
 				F29A008126B1D3A200931B7F /* Info.plist */,
 				F29A007E26B1D3A200931B7F /* Preview Content */,
@@ -67,6 +70,14 @@
 				F29A007F26B1D3A200931B7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F29A008726B1D3CA00931B7F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				F29A008826B1D3E600931B7F /* Apollo.swift */,
+			);
+			path = GraphQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29A007B26B1D3A100931B7F /* ContentView.swift in Sources */,
+				F29A008926B1D3E600931B7F /* Apollo.swift in Sources */,
 				F29A007926B1D3A100931B7F /* GraphQLCountryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
