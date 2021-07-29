@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var countryEmoji = ""
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text(countryEmoji).onAppear(perform: {
+            Network.shared.apollo.fetch(query: SpecificCountryQuery()) { result in
+                switch result {
+                case .success(let graphQLResult):
+                    DispatchQueue.main.async {
+                        if let emoji = graphQLResult.data?.country?.emoji {
+                            self.countryEmoji = emoji
+                        }
+                    }
+                case .failure(let error):
+                    print("Error: \(error)")
+                }
+            }
+        })
     }
 }
 
