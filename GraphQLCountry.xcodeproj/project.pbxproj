@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47DA742EBF4E18C7F2FF70FC /* Pods_GraphQLCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD986DDAFCE16CBF2B581BC /* Pods_GraphQLCountry.framework */; };
+		4C766564C05B27705B73A183 /* Pods_GraphQLCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8C2D08BA11194AAE400D0 /* Pods_GraphQLCountry.framework */; };
 		F29A007926B1D3A100931B7F /* GraphQLCountryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29A007826B1D3A100931B7F /* GraphQLCountryApp.swift */; };
 		F29A007B26B1D3A100931B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29A007A26B1D3A100931B7F /* ContentView.swift */; };
 		F29A007D26B1D3A200931B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29A007C26B1D3A200931B7F /* Assets.xcassets */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3498FA6E2140431173BB9D7 /* Pods-GraphQLCountry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.release.xcconfig"; sourceTree = "<group>"; };
-		ACD986DDAFCE16CBF2B581BC /* Pods_GraphQLCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFEDAF978EAA280D94A6591F /* Pods-GraphQLCountry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.debug.xcconfig"; sourceTree = "<group>"; };
+		63C8C2D08BA11194AAE400D0 /* Pods_GraphQLCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8601B34A5AAE3BE8EB80BD /* Pods-GraphQLCountry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.debug.xcconfig"; sourceTree = "<group>"; };
+		D8908665D0F350411CD85A9D /* Pods-GraphQLCountry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.release.xcconfig"; sourceTree = "<group>"; };
 		F29A007526B1D3A100931B7F /* GraphQLCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29A007826B1D3A100931B7F /* GraphQLCountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLCountryApp.swift; sourceTree = "<group>"; };
 		F29A007A26B1D3A100931B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,28 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DA742EBF4E18C7F2FF70FC /* Pods_GraphQLCountry.framework in Frameworks */,
+				4C766564C05B27705B73A183 /* Pods_GraphQLCountry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9768758F48475057B65A8552 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ACD986DDAFCE16CBF2B581BC /* Pods_GraphQLCountry.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C2F08AAA1CAF6C6BC5DDEF0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFEDAF978EAA280D94A6591F /* Pods-GraphQLCountry.debug.xcconfig */,
-				A3498FA6E2140431173BB9D7 /* Pods-GraphQLCountry.release.xcconfig */,
+				6A8601B34A5AAE3BE8EB80BD /* Pods-GraphQLCountry.debug.xcconfig */,
+				D8908665D0F350411CD85A9D /* Pods-GraphQLCountry.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE1283E1707E6DB722E837F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C8C2D08BA11194AAE400D0 /* Pods_GraphQLCountry.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F29A006C26B1D3A100931B7F = {
@@ -69,7 +69,7 @@
 				F29A007726B1D3A100931B7F /* GraphQLCountry */,
 				F29A007626B1D3A100931B7F /* Products */,
 				C2F08AAA1CAF6C6BC5DDEF0D /* Pods */,
-				9768758F48475057B65A8552 /* Frameworks */,
+				CE1283E1707E6DB722E837F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,12 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29A008426B1D3A200931B7F /* Build configuration list for PBXNativeTarget "GraphQLCountry" */;
 			buildPhases = (
-				81FA518E22B146BA19C3340D /* [CP] Check Pods Manifest.lock */,
+				84DC8568DCCA0005804D3176 /* [CP] Check Pods Manifest.lock */,
 				F2AF5ED226B1DEF300606930 /* ShellScript */,
 				F29A007126B1D3A100931B7F /* Sources */,
 				F29A007226B1D3A100931B7F /* Frameworks */,
 				F29A007326B1D3A100931B7F /* Resources */,
-				C06F876E6E179B716449CE60 /* [CP] Embed Pods Frameworks */,
+				E46AA1919C33EBB18F479B44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,7 +183,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		81FA518E22B146BA19C3340D /* [CP] Check Pods Manifest.lock */ = {
+		84DC8568DCCA0005804D3176 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,7 +205,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C06F876E6E179B716449CE60 /* [CP] Embed Pods Frameworks */ = {
+		E46AA1919C33EBB18F479B44 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +374,7 @@
 		};
 		F29A008526B1D3A200931B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEDAF978EAA280D94A6591F /* Pods-GraphQLCountry.debug.xcconfig */;
+			baseConfigurationReference = 6A8601B34A5AAE3BE8EB80BD /* Pods-GraphQLCountry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -397,7 +397,7 @@
 		};
 		F29A008626B1D3A200931B7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3498FA6E2140431173BB9D7 /* Pods-GraphQLCountry.release.xcconfig */;
+			baseConfigurationReference = D8908665D0F350411CD85A9D /* Pods-GraphQLCountry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
